@@ -12,4 +12,8 @@ Dead Space Hotkeys
     *XButton1::
         Send, {c Down}{c Up}
     return
+
+    *XButton2::
+        Send, {f Down}{f Up}
+    return
 }

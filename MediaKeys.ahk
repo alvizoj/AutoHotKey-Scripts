@@ -1,13 +1,13 @@
 #SingleInstance Force
 
-F6::
+F5::
     Send, {Media_Prev}
 return
 
-F7::
+F6::
     Send, {Media_Play_Pause}
 return
 
-F8::
+F7::
     Send, {Media_Next}
 return
