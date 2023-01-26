@@ -1,15 +1,20 @@
 #SingleInstance Force
 /*
 
-Dead Space Hotkeys
+Dead Space 1 & 2 Hotkeys
 
 
 */
 
-#IfWinActive ahk_exe Dead Space.exe
+IfWinActive, ahk_exe Dead Space.exe || ahk_exe deadspace2.exe
 {
-    ; ----- HOTKEY: Front/Back Mouse Buttons - Stasis (C) -----
+    ; ----- HOTKEY: Front Mouse Button - Stasis (C) -----
     *XButton1::
         Send, {c Down}{c Up}
+    return
+
+    ; ----- HOTKEY: Back Mouse Button - Kinesis (F) -----
+    *XButton2::
+	Send, {f Down}{f Up}
     return
 }
