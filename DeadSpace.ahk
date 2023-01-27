@@ -6,7 +6,7 @@ Dead Space 1 & 2 Hotkeys
 
 */
 
-#If WinActive("ahk_exe Dead Space.exe") || Winactive("ahk_exe deadspace2.exe")
+#If WinActive("ahk_exe Dead Space.exe") || WinActive("ahk_exe deadspace2.exe")
 {
     ; ----- HOTKEY: Front Mouse Button - Stasis (C) -----
     *XButton1::
